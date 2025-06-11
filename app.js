@@ -16,6 +16,10 @@ connectDB();
 /**
  * Mount API routes
  */
+app.get("/", (req, res) => {
+  res.send("welcom to the API");
+});
+
 const aboutRouter = require("./routes/about");
 const costsRouter = require("./routes/costs");
 const userRouter = require("./routes/users");

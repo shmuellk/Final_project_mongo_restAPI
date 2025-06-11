@@ -1,0 +1,16 @@
+GET http://localhost:3000/api/users/123123
+
+
+###
+GET http://localhost:3000/api/about
+
+
+###
+GET http://localhost:3000/api/report
+Content-Type: application/json
+
+{
+    "id":123123,
+    "year":2025,
+    "month":5
+}

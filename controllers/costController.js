@@ -43,7 +43,7 @@ exports.addCost = async (req, res) => {
 const ALL_CATEGORIES = ["food", "education", "health", "housing"];
 
 exports.getMonthlyReport = async (req, res) => {
-  const { id, year, month } = req.body;
+  const { id, year, month } = req.query;
   try {
     // Calculate date range for the given month
     const startDate = new Date(Number(year), Number(month) - 1, 1);

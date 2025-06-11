@@ -6,11 +6,11 @@ GET http://localhost:3000/api/about
 
 
 ###
-GET http://localhost:5001/api/report
+GET http://128.140.125.244:5000/api/report
 Content-Type: application/json
 
 {
     "id":123123,
-    "year":2025,
-    "month":5
+    "year":2028,
+    "month":1
 }
